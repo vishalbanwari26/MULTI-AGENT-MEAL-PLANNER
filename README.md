@@ -1,6 +1,6 @@
 # Multi-Agent Meal Planning System
 
-This personal project demonstrates a **multi-agent system** designed to assist users in planning daily meals while considering **dietary preferences**, **nutritional goals**, and **financial constraints**. The system uses a group of intelligent agents, each specializing in a meal type, and integrates a custom **Budget Checker Tool** to ensure all meal recommendations remain affordable.
+This project demonstrates a **multi-agent system** designed to assist users in planning daily meals while considering **dietary preferences**, **nutritional goals**, and **financial constraints**. The system uses a group of intelligent agents, each specializing in a meal type, and integrates a custom **Budget Checker Tool** to ensure all meal recommendations remain affordable.
 
 ## 🌟 Project Highlights
 

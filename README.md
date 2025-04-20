@@ -7,7 +7,7 @@ This personal project demonstrates a **multi-agent system** designed to assist u
 - Personalized and health-conscious meal suggestions for **breakfast, lunch, dinner, and snacks**
 - Real-time **budget validation** using a custom tool
 - Seamless coordination among agents using a **Round Robin** group chat structure
-- Built with **Groq API**, featuring `MaxMessageTermination`, `AssistantAgent`, and `RoundRobinGroupChat`
+- Built with **Groq API**, featuring `llama3-70b-8192`, `MaxMessageTermination`, `AssistantAgent`, and `RoundRobinGroupChat`
 
 ## 🧠 System Overview
 
@@ -48,7 +48,7 @@ Ensures each meal recommendation fits within the remaining budget.
 
 - Python
 - Jupyter Notebook
-- Groq API (`MaxMessageTermination`, `AssistantAgent`, `RoundRobinGroupChat`)
+- Groq API (`llama3-70b-8192`,`MaxMessageTermination`, `AssistantAgent`, `RoundRobinGroupChat`)
 - Custom budget handling logic
 
 ## 🚀 How to Use

@@ -1,32 +1,70 @@
-# Personal Project: Data Analysis and Machine Learning
+# Multi-Agent Meal Planning System
 
-This project showcases my work on a data analysis and machine learning task originally structured as an academic assignment. I have adapted it into a personal project to demonstrate my skills in Python, data preprocessing, visualization, and model building using libraries like pandas, matplotlib, seaborn, and scikit-learn.
+This personal project demonstrates a **multi-agent system** designed to assist users in planning daily meals while considering **dietary preferences**, **nutritional goals**, and **financial constraints**. The system uses a group of intelligent agents, each specializing in a meal type, and integrates a custom **Budget Checker Tool** to ensure all meal recommendations remain affordable.
 
-## Overview
+## 🌟 Project Highlights
 
-The notebook includes:
-- Data loading and exploration
-- Visualization of data distributions and relationships
-- Data preprocessing and feature engineering
-- Training and evaluation of machine learning models
-- Performance comparison and conclusions
+- Personalized and health-conscious meal suggestions for **breakfast, lunch, dinner, and snacks**
+- Real-time **budget validation** using a custom tool
+- Seamless coordination among agents using a **Round Robin** group chat structure
+- Built with **Groq API**, featuring `MaxMessageTermination`, `AssistantAgent`, and `RoundRobinGroupChat`
 
-## Technologies Used
+## 🧠 System Overview
+
+### 1. Personalized Meal Recommendations
+- Suggestions based on individual **dietary restrictions**, **preparation time**, and **food preferences**
+- Offers **one recommendation per meal** (breakfast, lunch, dinner, snack)
+- Designed to promote **balanced nutrition**
+
+### 2. Budget Validation
+- A custom **Budget Checker Tool** verifies affordability before confirming meal choices
+- Real-time **feedback** on affordability and remaining budget
+
+### 3. User-Friendly Assistance
+- Clear and concise communication
+- Actionable and practical suggestions for each meal type
+
+## 🧑‍💻 Agent Roles
+
+| Agent         | Role                                                                 | Specialization                                              |
+|---------------|----------------------------------------------------------------------|-------------------------------------------------------------|
+| **Breakfast** | Suggests affordable, time-conscious, nutritious breakfasts           | Single recommendation + Budget Checker Tool                |
+| **Lunch**     | Recommends balanced and budget-validated lunches                     | Tailored to dietary needs                                   |
+| **Dinner**    | Offers practical dinner options based on dietary and budget needs    | Validates feasibility and cost                              |
+| **Snack**     | Provides healthy snacks that align with the day’s nutrition          | Checks cost-effectiveness and health balance                |
+| **Budget**    | Oversees total cost of all meals                                     | Offers real-time feedback via Budget Checker Tool           |
+
+## 💰 Budget Checker Tool
+
+### Purpose:
+Ensures each meal recommendation fits within the remaining budget.
+
+### Features:
+- **Affordability Validation**
+- **Clear Budget Feedback**
+- **Integration with all Meal Agents**
+
+## ⚙️ Technologies Used
 
 - Python
 - Jupyter Notebook
-- pandas
-- matplotlib
-- seaborn
-- scikit-learn
+- Groq API (`MaxMessageTermination`, `AssistantAgent`, `RoundRobinGroupChat`)
+- Custom budget handling logic
 
-## Getting Started
+## 🚀 How to Use
 
-To run this project locally:
 1. Clone this repository
-2. Install the required packages listed above
-3. Open the notebook and run the cells sequentially
+2. Install required Python packages (Groq SDK, etc.)
+3. Run the Jupyter Notebook
+4. Customize inputs such as budget and dietary preferences
+5. Review generated meal plan and budget validation
 
-## License
+## 📌 Future Work
 
-This project is open source and available under the [MIT License](LICENSE).
+- Incorporate grocery delivery APIs for real-time pricing
+- Expand support to weekly or monthly planning
+- Add visual dashboard for meal summaries and budget tracking
+
+## 📄 License
+
+This project is open-source under the MIT License.
